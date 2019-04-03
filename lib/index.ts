@@ -1,0 +1,1 @@
+export { pickByLang } from './pickByLang'
