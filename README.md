@@ -1,6 +1,6 @@
 # pick-by-lang
 
-> description
+> Helper for transform object with i18n content
 
 ## Installation
 
@@ -56,7 +56,7 @@ const pickRu = pickByLang('ru')
 console.log(pickRu(content)) // { title: 'Магазин' }
 ```
 
-`pickByLang` return `pick` function for exact language. That function can apply to any object with some rules:
+Lib can handke objects with some rules:
 
 1. Any field can contains some language variants. If field do not contain language variants, it will be provided as is.
 
